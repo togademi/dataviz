@@ -71,7 +71,7 @@ categories_df['average_goal'] = categories_df.apply(lambda row: row.goal_sum / r
 
 After doing this and **sorting** the different categories **by success rate**, we get this data frame:
 
-![Data frame of the Kickstarter categories](./img/kickstarter_df.png)
+![Data frame of the Kickstarter categories](./img/kickstarter_df.jpg)
 
 
 ## Plotting data
@@ -98,14 +98,14 @@ plt.ylabel("Average funding goal (USD)", fontsize=19, color='#e58200')
 
 ***Et voilà!***
 
-![Graph: success rate of Kickstarter projects by category](./img/ks_success_ratio_avg_goal.png)
+![Graph: success rate of Kickstarter projects by category](./img/ks_success_ratio_avg_goal.jpg)
 
 Why I wanted to calculate the average funding goal was to compare it with the success rate. Therefore we see that the categories that most often achieve their goals are also some of the ones that ask for the least money. This seems reasonable. Let's also look at the two outliers here:
 
 * the ***film and video*** category is the 7th most **successful**, while also being the 3rd category that **asks for the most money**.
 * the ***crafts*** category is one of the **least successful** despite being the 2nd category that **asks for the least money**.
 
-This graph has actually taken me many iterations and reconsiderations because every time that I asked for feedback on the internet I got many replies telling me how to improve it. [This was my first version.](./img/ks_success_ratio_first_version.png)
+This graph has actually taken me many iterations and reconsiderations because every time that I asked for feedback on the internet I got many replies telling me how to improve it. [This was my first version.](./img/ks_success_ratio_first_version.jpg)
 
 ---
 
